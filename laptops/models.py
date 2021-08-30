@@ -12,3 +12,10 @@ class Laptop(models.Model):
 	ram_type = models.CharField(max_length=100, verbose_name="نوع حافظه RAM")
 	display_type = models.CharField(max_length=100, verbose_name="دقت صفحه نمایش")
 	hard_type = models.CharField(max_length=200, verbose_name="نوع حافظه داخلی")
+
+	class Meta:
+		verbose_name = "لپتاپ"
+		verbose_name_plural = "لپتاپ ها"
+
+	def __str__(self):
+		return self.name
