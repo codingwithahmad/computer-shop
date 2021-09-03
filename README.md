@@ -11,3 +11,6 @@
 - [x] Make static and templates dir in BASE_DIR 
 - [x] Make laptop_list.html template for Home view at laptops app
 - [x] Make stayle.css file for laptop_list.html and edit laptop card
+# section 3
+- [x] Add new template in laptop_list.html
+- [ ] Fix laptop_list new template 
